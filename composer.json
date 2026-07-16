@@ -1,5 +1,5 @@
 {
-    "name": "mohamedmohamedhekal/guardrail",
+    "name": "mohamedhekal/guardrail",
     "description": "Team-scoped roles, abilities, and audited impersonation for Laravel SaaS",
     "type": "library",
     "license": "MIT",
@@ -71,9 +71,9 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "homepage": "https://github.com/mohamedmohamedhekal/guardrail",
+    "homepage": "https://github.com/mohamedhekal/guardrail",
     "support": {
-        "issues": "https://github.com/mohamedmohamedhekal/guardrail/issues",
-        "source": "https://github.com/mohamedmohamedhekal/guardrail"
+        "issues": "https://github.com/mohamedhekal/guardrail/issues",
+        "source": "https://github.com/mohamedhekal/guardrail"
     }
 }
