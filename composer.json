@@ -3,8 +3,25 @@
     "description": "Team-scoped roles, abilities, and audited impersonation for Laravel SaaS",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "permissions", "roles", "teams", "impersonation", "saas", "acl"],
-    "authors": [{"name": "Mohamed Hekal"}],
+    "keywords": [
+        "laravel",
+        "permissions",
+        "roles",
+        "teams",
+        "impersonation",
+        "saas",
+        "acl",
+        "php",
+        "laravel-package",
+        "rbac",
+        "authorization",
+        "access-control"
+    ],
+    "authors": [
+        {
+            "name": "Mohamed Hekal"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11.0|^12.0",
@@ -22,15 +39,23 @@
         "phpstan/phpstan": "^2.0"
     },
     "autoload": {
-        "psr-4": {"Hekal\\GuardRail\\": "src/"}
+        "psr-4": {
+            "Hekal\\GuardRail\\": "src/"
+        }
     },
     "autoload-dev": {
-        "psr-4": {"Hekal\\GuardRail\\Tests\\": "tests/"}
+        "psr-4": {
+            "Hekal\\GuardRail\\Tests\\": "tests/"
+        }
     },
     "extra": {
         "laravel": {
-            "providers": ["Hekal\\GuardRail\\GuardRailServiceProvider"],
-            "aliases": {"GuardRail": "Hekal\\GuardRail\\Facades\\GuardRail"}
+            "providers": [
+                "Hekal\\GuardRail\\GuardRailServiceProvider"
+            ],
+            "aliases": {
+                "GuardRail": "Hekal\\GuardRail\\Facades\\GuardRail"
+            }
         }
     },
     "scripts": {
@@ -40,8 +65,15 @@
     },
     "config": {
         "sort-packages": true,
-        "allow-plugins": {"pestphp/pest-plugin": true}
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "homepage": "https://github.com/mohamedhekal/guardrail",
+    "support": {
+        "issues": "https://github.com/mohamedhekal/guardrail/issues",
+        "source": "https://github.com/mohamedhekal/guardrail"
+    }
 }
